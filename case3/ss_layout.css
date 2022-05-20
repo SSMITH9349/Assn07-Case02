@@ -19,6 +19,18 @@ article{
    float:left;
    width:384px;
 }
+article p:first-of-type::first-line{
+   font-variant: small-caps;
+   font-size:1.25em;
+
+}
+article>p:first-of-type::first-letter {
+   font-family: serif;
+   font-size: 4em;
+   float:left;
+   margin: 0 5px 5px 0;
+
+}
 
 
 
